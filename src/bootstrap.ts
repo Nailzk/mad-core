@@ -5,7 +5,7 @@ import { CrudRequestInterceptor } from "@nestjsx/crud";
 import * as cookieParser from "cookie-parser";
 import * as dotenv from "dotenv";
 import { NestExpressApplication } from "@nestjs/platform-express";
-import { UserRequestInterceptor } from "interceptors";
+import { UserRequestInterceptor } from "./interceptors";
 
 dotenv.config();
 
